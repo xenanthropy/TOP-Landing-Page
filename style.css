@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 65px;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 65px;
+    width: 100%;
+}
+
+.content1 {
+    height: 465px;
+}
+
+.content2 {
+    height: 500px;
+}
+
+.content3 {
+    height: 430px;
+}
+
+.content4 {
+    height: 350px;
+}
+
+.footer {
+    height: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
