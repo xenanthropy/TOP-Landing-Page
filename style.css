@@ -3,6 +3,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.header, .content1, .content2, .content3, .content4, .footer {
+    width: 100%;
 }
 
 .header{
@@ -10,11 +15,11 @@ body {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 65px;
-    width: 100%;
 }
 
 .content1 {
     height: 465px;
+    background-color: #1F2937;
 }
 
 .content2 {
@@ -31,19 +36,76 @@ body {
 
 .footer {
     height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 250px;
 }
 
 li {
     color: white;
 }
 
-.white {
-    color: white;
+.headerlinktext, .content1secondtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 250px;
+}
+
+.content1header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content2bottom {
+    color: #2d3035;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.content4box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.content3 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quotename {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: normal;
+    font-style: italic;
 }
 
