@@ -4,6 +4,13 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .header, .content1, .content2, .content3, .content4, .footer {
@@ -15,15 +22,31 @@ body {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 65px;
+    justify-content: center;
+    align-items: center;
 }
 
 .content1 {
     height: 465px;
     background-color: #1F2937;
+    display: flex;
+    flex: 0 1 465px;
+    align-items: center;
+}
+
+
+
+.content1image {
+    height: 300px;
+    width: 700px;
 }
 
 .content2 {
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
 .content3 {
@@ -38,6 +61,9 @@ body {
     height: 100px;
     background-color: #1F2937;
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -45,11 +71,11 @@ ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-    flex: 1;
     justify-content: flex-end;
     align-items: center;
     margin-left: auto;
-    padding-right: 250px;
+    padding-right: 257px;
+    gap: 25px;
 }
 
 li {
@@ -65,6 +91,7 @@ li {
     font-size: 24px;
     color: #F9FAF8;
     padding-left: 250px;
+    font-weight: bolder;
 }
 
 .content1header {
@@ -77,6 +104,7 @@ li {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
 }
 
 .content2bottom {
@@ -86,6 +114,15 @@ li {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 8px 30px;
+}
+
+.button1 {
+    margin-top: 8px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 .content4box {
@@ -96,6 +133,10 @@ button {
 .content3 {
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotename {
@@ -105,7 +146,43 @@ button {
 
 .quotetext {
     font-size: 36px;
-    font-weight: normal;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
 }
 
+.content1left {
+    width: 700px;
+    height: 300px;
+    margin-left: 250px;
+}
+
+.content1right {
+    margin-right: 250px;
+    width: 700px;
+    height: 300px;
+}
+
+.content2top {
+    margin: 40px 0;
+}
+
+.content2bottom {
+    display: flex;
+    gap: 150px;
+}
+
+.content2bottom img {
+    height: 120px;
+    width: 120px;
+}
+
+.content2imagediv {
+    width: 120px;
+}
+
+.imagedescription {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
