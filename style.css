@@ -55,6 +55,37 @@ p {
 
 .content4 {
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4box {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.content4left {
+    padding-left: 150px;
+}
+
+.content4right {
+    margin-left: auto;
+    padding-right: 150px;
+}
+
+.content4p1 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.content4p2 {
+    font-size: 20px;
 }
 
 .footer {
@@ -125,9 +156,9 @@ button {
     border-style: solid;
 }
 
-.content4box {
-    background-color: #3882F6;
-    color: #F9FAF8;
+.button2 {
+    border-style: solid;
+    border-color:#E5E7EB;
 }
 
 .content3 {
@@ -137,11 +168,14 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .quotename {
     font-size: 24px;
     font-weight: bolder;
+    width: 850px;
+    text-align: right;
 }
 
 .quotetext {
@@ -155,6 +189,7 @@ button {
     width: 700px;
     height: 300px;
     margin-left: 250px;
+/*    flex: 1 .2 700px; */
 }
 
 .content1right {
