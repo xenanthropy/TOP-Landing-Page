@@ -18,6 +18,31 @@ a {
     color: #dde6f8;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 257px;
+    gap: 25px;
+}
+
+li {
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 8px 30px;
+}
+
+
 .header, .content1, .content2, .content3, .content4, .footer {
     width: 100%;
 }
@@ -31,6 +56,18 @@ a {
     align-items: center;
 }
 
+.headerlinktext, .content1secondtext {
+    font-size: 18px;
+    color: #dde6f8;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 250px;
+    font-weight: bolder;
+}
+
 .content1 {
     height: 465px;
     background-color: #1F2937;
@@ -39,11 +76,33 @@ a {
     align-items: center;
 }
 
-
-
 .content1image {
     height: 300px;
     width: 700px;
+}
+
+.content1header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content1left {
+    width: 700px;
+    height: 300px;
+    margin-left: 250px;
+}
+
+.content1right {
+    margin-right: 250px;
+    width: 700px;
+    height: 300px;
+}
+
+.button1 {
+    margin-top: 8px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 .content2 {
@@ -54,8 +113,61 @@ a {
     gap: 50px;
 }
 
+.content2top {
+    margin: 40px 0;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.content2bottom {
+    display: flex;
+    gap: 150px;
+    color: #2d3035;
+}
+
+.content2bottom img {
+    height: 120px;
+    width: 120px;
+}
+
+.imagedescription {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.content2imagediv {
+    width: 120px;
+}
+
 .content3 {
     height: 430px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quotename {
+    font-size: 24px;
+    font-weight: bolder;
+    width: 850px;
+    text-align: right;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
 }
 
 .content4 {
@@ -93,6 +205,11 @@ a {
     font-size: 20px;
 }
 
+.button2 {
+    border-style: solid;
+    border-color:#E5E7EB;
+}
+
 .footer {
     height: 100px;
     background-color: #1F2937;
@@ -100,129 +217,4 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
-    padding-right: 257px;
-    gap: 25px;
-}
-
-li {
-    color: white;
-}
-
-.headerlinktext, .content1secondtext {
-    font-size: 18px;
-    color: #dde6f8;
-}
-
-.headerlogo {
-    font-size: 24px;
-    color: #F9FAF8;
-    padding-left: 250px;
-    font-weight: bolder;
-}
-
-.content1header {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.infoheader {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    text-align: center;
-}
-
-.content2bottom {
-    color: #2d3035;
-}
-
-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 5px;
-    font-weight: bolder;
-    padding: 8px 30px;
-}
-
-.button1 {
-    margin-top: 8px;
-    border-color: #3882F6;
-    border-style: solid;
-}
-
-.button2 {
-    border-style: solid;
-    border-color:#E5E7EB;
-}
-
-.content3 {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.quotename {
-    font-size: 24px;
-    font-weight: bolder;
-    width: 850px;
-    text-align: right;
-}
-
-.quotetext {
-    font-size: 36px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    width: 1000px;
-}
-
-.content1left {
-    width: 700px;
-    height: 300px;
-    margin-left: 250px;
-/*    flex: 1 .2 700px; */
-}
-
-.content1right {
-    margin-right: 250px;
-    width: 700px;
-    height: 300px;
-}
-
-.content2top {
-    margin: 40px 0;
-}
-
-.content2bottom {
-    display: flex;
-    gap: 150px;
-}
-
-.content2bottom img {
-    height: 120px;
-    width: 120px;
-}
-
-.content2imagediv {
-    width: 120px;
-}
-
-.imagedescription {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 20px;
 }
