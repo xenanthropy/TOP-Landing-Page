@@ -13,6 +13,11 @@ p {
     padding-bottom: 5px;
 }
 
+a {
+    text-decoration: none;
+    color: #dde6f8;
+}
+
 .header, .content1, .content2, .content3, .content4, .footer {
     width: 100%;
 }
@@ -115,7 +120,7 @@ li {
 
 .headerlinktext, .content1secondtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #dde6f8;
 }
 
 .headerlogo {
